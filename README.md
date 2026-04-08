@@ -1,4 +1,4 @@
-<img width="1919" height="945" alt="1" src="https://github.com/user-attachments/assets/356f0bdb-f5f6-434a-93b2-964840d3f26c" /><img width="1024" height="556" alt="alexandria_logo_transparent" src="https://github.com/user-attachments/assets/fbe58be8-0a47-49d6-bb1d-a07fb84f3e9f" /># 🧾 Invoice Management System
+# 🧾 Invoice Management System
 
 A robust and secure Invoice Management System built with **Laravel**. This project is designed to streamline the process of creating, managing, and tracking invoices while maintaining high standards of data integrity and security.
 
