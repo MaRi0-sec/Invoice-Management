@@ -13,15 +13,15 @@ A robust and secure Invoice Management System built with **Laravel**. This proje
 
 ---
 
-## 🛡️ Security Implementation (Security-First Approach)
+## 🛡️🔐 Security Implementation
 
-As a developer with a background in **Cybersecurity**, I have implemented several layers of protection:
+* **As a developer with a background in Cybersecurity, I have implemented several layers of protection:
 
-* **Mass Assignment Protection:** Used `$fillable` white-listing to prevent unauthorized field injections.
-* **IDOR Mitigation:** Implemented Laravel **Policies** to ensure users can only access/edit their own invoices, preventing Insecure Direct Object Reference.
-* **SQL Injection Prevention:** Fully utilized Laravel's Eloquent ORM and Query Builder which use PDO parameter binding by default.
-* **XSS Protection:** Enforced Blade template engine's automatic escaping for all user-generated content.
-* **CSRF Protection:** Integrated Laravel’s built-in tokens to prevent Cross-Site Request Forgery.
+* **Mass Assignment Protection: Used $fillable white-listing to prevent unauthorized field injections.
+* **SQL Injection Prevention: Fully utilized Laravel's Eloquent ORM and Query Builder which use PDO parameter binding by default.
+* **XSS Protection: Enforced Blade template engine's automatic escaping for all user-generated content.
+* **CSRF Protection: Integrated Laravel’s built-in tokens to prevent Cross-Site Request Forgery.
+* **Authentication & Authorization: Implemented token-based authentication using Laravel Sanctum, along with a permission-based access control system to manage user roles and restrict actions based on privileges.
 
 ---
 
