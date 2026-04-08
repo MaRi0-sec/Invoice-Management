@@ -26,16 +26,16 @@ A robust and secure Invoice Management System built with **Laravel**. This proje
 ---
 
 ## 🛠️ Tech Stack & Advanced Features
-Framework: Laravel 10/11
-Database: MySQL
-Frontend: Blade Templates, Bootstrap/Tailwind
-Tools & Libraries: Composer, Git
-Advanced Laravel Features Used:
-Laravel Sanctum for token-based authentication
-Form Requests & Validation for secure and clean request handling
-Service Classes to separate business logic and maintain clean architecture
-Notifications (email and database) to alert users about invoice events
-RESTful API design for integration with third-party applications
+* Framework: Laravel 10/11
+* Database: MySQL
+* Frontend: Blade Templates, Bootstrap/Tailwind
+* Tools & Libraries: Composer, Git
+* Advanced Laravel Features Used:
+* Laravel Sanctum for token-based authentication
+* Form Requests & Validation for secure and clean request handling
+* Service Classes to separate business logic and maintain clean architecture
+* Notifications (email and database) to alert users about invoice events
+* RESTful API design for integration with third-party applications
 
 ---
 
